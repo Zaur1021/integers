@@ -273,6 +273,32 @@ btnSort.addEventListener('click', function (e) {
 // // Rounding decimals
 // console.log((2.7).toFixed(0));
 
-console.log(5 % 2);
+// console.log(5 % 2);
 
-console.log(6 % 2);
+// console.log(6 % 2);
+
+// const isEven = n => n % 2 === 0;
+// labelBalance.addEventListener('click', function () {
+//   [...document.querySelectorAll('.movements_row')].forEach(function (row, i) {
+//     if (i % 2 === 0) row.style.backgroundColor = 'orangered';
+//     if (i % 3 === 0) row.style.backgroundColor = 'blue';
+//   });
+// });
+
+// const diameter = 287_460_000_000;
+
+// const priceCents = 345_99;
+
+// const transferFee = 15_00;
+
+// console.log(4321432143241432143412432142343241n ** 1n / 2n);
+// console.log(new Date(3 * 24 * 60 * 60 * 1000));
+
+const future = new Date(2037, 10, 19, 15, 23);
+console.log(future);
+console.log(future.getFullYear());
+console.log(future.getMonth());
+console.log(future.getDate());
+console.log(future.getDay());
+console.log(future.toISOString());
+console.log(future.getTime());
